@@ -9,7 +9,6 @@ admin.initializeApp({
 
 
 
-
 function getDatabase() {
 	return admin.firestore()
 }

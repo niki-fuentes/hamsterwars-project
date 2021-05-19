@@ -31,9 +31,6 @@ app.use( cors() )
 app.use( express.static(staticFolder) )
 
 
-app.get('/', (req, res) => {
-	res.send('Hamster Wars')
-})
 
 //REST API för HAMSTERS
 app.use('/hamsters', hamsters)
