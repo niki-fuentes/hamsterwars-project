@@ -1,3 +1,5 @@
 node_modules/
 DS_Store
 hamsterwars-privatekey.json
+project-privatekey.json
+privatekey.json
