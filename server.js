@@ -9,7 +9,10 @@ const cors = require ('cors')
 const path = require ('path')
 const { nextTick } = require('process')
 const hamsters = require('./routes/hamsters.js')
-
+const matches = require("./routes/matches");
+const matchWinners = require("./routes/matchWinners");
+const winners = require("./routes/winners");
+const losers = require("./routes/losers");
 
 
 const PORT = 1983
@@ -35,7 +38,13 @@ app.use( express.static(staticFolder) )
 //REST API för HAMSTERS
 app.use('/hamsters', hamsters)
 
+//Routes
+app.use("/hamsters", hamsters);
+app.use("/matches", matches);
+app.use("/matchWinners", matchWinners);
+app.use("/winners", winners);
+app.use("/losers", losers);
+
 app.listen(PORT, () => {
 	console.log('Server listening on ' + PORT);
-}) 
-
+})
