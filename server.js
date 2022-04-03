@@ -19,8 +19,6 @@ const PORT = process.env.PORT || 1988
 const staticFolder = path.join(__dirname, 'static')
 const imgFolder = path.join(__dirname, 'img');
 
-
-
 //middleware
 
 app.use((req, res, next) => {
