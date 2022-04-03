@@ -1,30 +1,16 @@
 const admin = require("firebase-admin");
 
-
-
-let privateKey;
-if( process.env.PRIVATE_KEY ) {
-	privateKey = JSON.parse(process.env.PRIVATE_KEY)
-} else {
-	privateKey = require('./private-key-animals.json')
-}
-
-
+const serviceAccount = require("./hamster-private-key");
 
 admin.initializeApp({
-
 credential: admin.credential.cert(serviceAccount),
-
 });
-
 
 
 function getDatabase() {
 
-return admin.firestore();
+	return admin.firestore();
 
 }
-
-
 
 module.exports = getDatabase;
