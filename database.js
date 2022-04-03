@@ -12,8 +12,6 @@ if( process.env.PRIVATE_KEY ) {
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
-
-
 function getDatabase() {
 
 return admin.firestore();
