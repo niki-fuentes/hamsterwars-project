@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 app.use( express. json() )
 app.use( cors() )
 app.use( express.static(staticFolder) )
-
+app.use('/img', express.static(imgFolder) );
 
 
 //REST API för HAMSTERS
