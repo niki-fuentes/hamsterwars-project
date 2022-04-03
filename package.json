@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-	"build":""
+
   },
   "keywords": [],
   "author": "nicole",
