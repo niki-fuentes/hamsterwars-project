@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hamsterwars-nicolepenafuentes",
+  "private_key_id": "1d7feadcd70032cf89217004bb3cbcd85ad61001",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDM/8Qs/74R2cqP\n6J5A2RzSQCeMnQpPoGlWA41cqkzSEyT+iaS9ywyPxfDs9tcF9KKoaI5SKOZF3y7h\nT/o9JFFrveN05UsU/14pOModrywcF/624eyXo2F369+uMQhIAflSVrZFL0gkEPHz\nQ/bLwhbohO7XkKOIOnYQC/DgYSjgIrJHGIBpf2+9SuiYKKXwVFrGn+hwXwcI6Rxi\n+EGZLSAdr5T8kx2y+NO4Jad3DqWHhltdtsvlUdWYLoEmNTypwBKAUXLhSULxZLqF\nZOKVLb5N6gJR/OfGMcomRcF/v7Q/DsvfBfKgrGFdZN5/ien6aIhDRStBD7jk9HKk\n/J1K56G5AgMBAAECggEABka8ZF5OHPDMlVxbYAPlsIA7VcBHHQn9v57rOI+UO4hP\nhSWEsDTjxREb371s9uc3Ba3x0Y0kA7aiEk7nC/EtNv3A1YbhphptcRimg4Ml+BQ5\n/bJsEnZzmP7VQdmJdd7tmbpC6VpZvJTyO270wudF2Uecomfwwc58Z+Bdtxjybe5D\n+4bhM58F1XxrszZEaC9g6mxocMYNUs1guyvM7wk9oMvtL/xHaf+rrzR0efZVrKRw\nDNvJuw6k83ymYwwLAH6JPJ9Pxzt2ZN00kyFF1l1RKgIsvW8xY67h6oChPX0N0Kup\n/Gb7OY4Ba5BuWOZeMTclu8OOCDH3Rvk29uy9kzSSMwKBgQDrrxXBWpBfu4ChnzYm\ng9ySeNQAWMJZ9q4/ZSioP/tuugd6YbsWe0fvYC6HbbuvQvMF2LdVc57LV52Qw3C3\nuc9ueB2XFaR/2zXYbRU/FhDBpvbmsgXGt5w/geiSsHVQAbquDyFRu1tttGBSwOgl\nIt9eg1bK+1mqUyvDt9ANzHh1nwKBgQDeq4yCZDItmw0sCPahDGxqG3yQ3U50L83W\nWcvCEakHL4f0VyoDvMBvG8qCzExwDQ/E3R3At/N4NssBpgOanzzHm69fto+xwdYn\nxw8FVkQm57hCZZqGT88yjx18nydEUIhoDuymcO3SOVX05YSamb28Gfg55qkL9jHS\nUEgedc25pwKBgQC0N1haVmbpXRX6ACVHBDNoqQ3rCfPrGM6a2T5ikTIws/093ndR\ntIkICLLricQnOvlbsiBWLifxcxif9mI9is6LuTtfKQR1Y+jjil3htHyxp3tKYjw6\nfHH0ueBeMqIxwHC/4f/nYG2EEJZLEQkyRF0rByEZ62Lf8+MWMHrd4kkGHwKBgH5B\ndyJX/buuNwHI807N5IslmrPpSBrJIEVyFP6tVNImOUhqRABqfhKCB4mynYTLYy2U\n0tH7e6mmJ+V/ZHu/3o6vz/jNYxy/c9aKIBI+n9YPfYLoaX3OswVP8MBA3dr2buHR\n1I1rau3QZNS/bzjaA6MsdnseNqv5pLZDnyDmWwfxAoGBAOgdyC5YJ79PQj+oUSw/\nA9S2Hr/GxZ91F/O6zLMsronXVn+GnteSTgtG2duHXYv2lAsjJHCCSf6mSSlwbgDd\nSW023pmE6gkOBjzTSk+ZFVEDm6u5kxYUkRLE2cGElu/IbCi0zbjS7LlJcrNta20D\nlMgB2GET9IOoSTW+xy1P6NAy\n-----END PRIVATE KEY-----\n",
+  "client_email": "hamsterwars-nicolepenafuentes@appspot.gserviceaccount.com",
+  "client_id": "116356915935252348952",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hamsterwars-nicolepenafuentes%40appspot.gserviceaccount.com"
+}

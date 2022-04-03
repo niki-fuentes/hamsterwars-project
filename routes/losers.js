@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
 
-    const matchesRef = db.collection("hamsters");
+    const matchesRef = db.collection("Hamsters");
     const snapshot = await matchesRef.get();
 
     if (snapshot.empty) {
