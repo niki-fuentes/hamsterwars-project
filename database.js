@@ -2,16 +2,16 @@ const admin = require("firebase-admin");
 
 
 
-const serviceAccount = require("hamster-private-key.json");
-
-
+let serviceAccount;
+if( process.env.PRIVATE_KEY ) {
+	serviceAccount = JSON.parse(process.env.PRIVATE_KEY);
+} else {
+	serviceAccount = require("./hamster-private-key.json");
+}
 
 admin.initializeApp({
-
-credential: admin.credential.cert(serviceAccount),
-
+  credential: admin.credential.cert(serviceAccount)
 });
-
 
 
 function getDatabase() {
