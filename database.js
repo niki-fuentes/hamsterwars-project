@@ -2,7 +2,7 @@ const admin = require("firebase-admin");
 
 
 
-const serviceAccount = require("./hamster-private-key.json");
+const serviceAccount = require("/hamster-private-key.json");
 
 
 
